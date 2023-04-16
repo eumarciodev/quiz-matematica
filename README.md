@@ -1,6 +1,9 @@
 # Quiz de Matemática
 Este é um simples quiz de matemática criado usando HTML, CSS e JavaScript.
 
+## Captura Tela
+<img src="/quiz.gif">
+
 ## Funcionalidades
 O usuário é apresentado a perguntas matemáticas de múltipla escolha<br>
 O usuário pode escolher uma resposta e clicar em "Enviar" para verificar se a resposta está correta ou não<br>
