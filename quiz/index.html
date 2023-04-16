@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Quiz de Matemática</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main>
+	<h1>Quiz de Matemática</h1>
+	<p class="back">Pergunta 1: Qual é a raiz quadrada de 49?</p>
+	<input id="certa" class="radio" type="radio" name="pergunta1" value="a">a) 7<br>
+	<input class="radio" type="radio" name="pergunta1" value="b">b) 9<br>
+	<input class="radio" type="radio" name="pergunta1" value="c">c) 5<br>
+	
+	<p class="back">Pergunta 2: Qual é o resultado de 2 + 2?</p>
+	<input class="radio" type="radio" name="pergunta2" value="a">a) 2<br>
+	<input id="certa1" class="radio" type="radio" name="pergunta2" value="b">b) 4<br>
+	<input class="radio" type="radio" name="pergunta2" value="c">c) 6<br>
+
+	<p class="back">Pergunta 3: Qual é o resultado de 200/8?</p>
+	<input id="certa2" class="radio" type="radio" name="pergunta3" value="a">a) 25<br>
+	<input class="radio" type="radio" name="pergunta3" value="b">b) 45<br>
+	<input class="radio" type="radio" name="pergunta3" value="c">c) 30<br>
+
+	<p class="back">Pergunta 4: Qual é a raiz quadrada de 900?</p>
+	<input class="radio" type="radio" name="pergunta4" value="a">a) 40<br>
+	<input class="radio" type="radio" name="pergunta4" value="b">b) 50<br>
+	<input id="certa3" class="radio" type="radio" name="pergunta4" value="c">c) 30<br>
+	
+  <br><button onclick="verificarRespostas()">Verificar Respostas</button><br><br>
+	
+	<p id="resultado"></p>
+  </main>
+
+  <div class="direitos"><p>&copy; Ditreitos Reservados Marcio Dev 2023</p></div>
+	
+	<script src="script.js"></script>
+</body>
+</html>
